@@ -22,13 +22,13 @@ CREATE SCHEMA AIRFLOW_TUTORIAL_SCHEMA;
 ![](https://github.com/ansel9618/Snowflake_Soda_DataQuality_Pipeline/blob/main/images/7.0_.png)
 
 ### refer code in dag folder --> movies.py
-##Data quality checks
+## Data quality checks
 
-Soda is one of the easiest dataquality tool that we can use to check the quality of our data
-airflow has some data quality check operators but ultimately its an orchestrator
-so its better to use SODA.
+* Soda is one of the easiest dataquality tool that we can use to check the quality of our data
+* Airflow has some data quality check operators but ultimately its an orchestrator
+  so its better to use SODA.
 
-mention the follo: configuration inside .env file
+* mention the follo: configuration inside .env file
 ```
 SNOWFLAKE_USER='********'
 SNOWFLAKE_PASSWORD='************'
