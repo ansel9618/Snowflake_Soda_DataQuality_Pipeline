@@ -1,6 +1,6 @@
 # Snowflake_Soda_DataQuality_Pipeline
 
-## Data pipeline which loads data from a http endpoint to snowflake and with dataquality checks using Soda with the help of Airflow astro sdk
+## Data pipeline which loads data from a http endpoint to snowflake with dataquality checks using Soda with the help of Airflow astro sdk
 
 ![](https://github.com/ansel9618/Snowflake_Soda_DataQuality_Pipeline/blob/main/images/1.0_.png)
 
