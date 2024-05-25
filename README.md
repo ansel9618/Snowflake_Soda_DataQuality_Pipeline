@@ -32,6 +32,12 @@ CREATE SCHEMA AIRFLOW_TUTORIAL_SCHEMA;
 ![](https://github.com/ansel9618/Snowflake_Soda_DataQuality_Pipeline/blob/main/images/8.0_.png)
 ![](https://github.com/ansel9618/Snowflake_Soda_DataQuality_Pipeline/blob/main/images/9.0_.png)
 
+### Tables created inside Snowflakedb
+
+![](https://github.com/ansel9618/Snowflake_Soda_DataQuality_Pipeline/blob/main/images/2.0_.png)
+![](https://github.com/ansel9618/Snowflake_Soda_DataQuality_Pipeline/blob/main/images/3.0_.png)
+
+
 
 
 
