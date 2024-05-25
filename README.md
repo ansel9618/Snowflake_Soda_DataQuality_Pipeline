@@ -22,16 +22,15 @@ CREATE SCHEMA AIRFLOW_TUTORIAL_SCHEMA;
 ![](https://github.com/ansel9618/Snowflake_Soda_DataQuality_Pipeline/blob/main/images/6.0_.png)
 ![](https://github.com/ansel9618/Snowflake_Soda_DataQuality_Pipeline/blob/main/images/7.0_.png)
 
-### Dag to be created
+### refer code in dag folder --> movies.py
 
-![](https://github.com/ansel9618/AWS_Snowflake_pipeline/blob/main/images/10.0_.png)
-** refer code :- movies.py in dags folder
 
 
 ### Dag Execution and output
 
-![](https://github.com/ansel9618/AWS_Snowflake_pipeline/blob/main/images/22.0_.png)
-![](https://github.com/ansel9618/AWS_Snowflake_pipeline/blob/main/images/output.png)
+![](https://github.com/ansel9618/Snowflake_Soda_DataQuality_Pipeline/blob/main/images/4.0_.png)
+![](https://github.com/ansel9618/Snowflake_Soda_DataQuality_Pipeline/blob/main/images/8.0_.png)
+![](https://github.com/ansel9618/Snowflake_Soda_DataQuality_Pipeline/blob/main/images/9.0_.png)
 
 
 
