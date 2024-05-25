@@ -11,9 +11,8 @@
 CREATE DATABASE AIRFLOW_TUTORIAL_DB;
 
 CREATE SCHEMA AIRFLOW_TUTORIAL_SCHEMA;
-
-
 ```
+![](https://github.com/ansel9618/Snowflake_Soda_DataQuality_Pipeline/blob/main/images/10.0_.png)
 
 ### Install the asto cli by referring the doc link :->([GitHub Pages](https://docs.astronomer.io/astro/cli/get-started-cli))
 
