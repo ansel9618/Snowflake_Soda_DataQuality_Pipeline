@@ -35,22 +35,22 @@ SNOWFLAKE_PASSWORD='************'
 SNOWFLAKE_ACCOUNT='******.ap-*****-1.aws'
 ```
 
-now inside the include folder create another folder called soda and 
-inside that folder create a configuration.yml file
+* now inside the include folder create another folder called soda and 
+  inside that folder create a configuration.yml file
 refer ([configuration.yml](https://github.com/ansel9618/Snowflake_Soda_DataQuality_Pipeline/blob/main/include/soda/configuration.yml))
 
-Soda will be installed in a separate venv
+*Soda will be installed in a separate venv
 we will create a separate python env to install soda in order to prevent dependency conflicts with airflow
 
-refer docker file to see the packages installed and libraries to download ([configuration.yml](https://github.com/ansel9618/Snowflake_Soda_DataQuality_Pipeline/blob/main/Dockerfile))
+refer docker file to see the packages installed and libraries to download ([Dockerfilel](https://github.com/ansel9618/Snowflake_Soda_DataQuality_Pipeline/blob/main/Dockerfile))
 
 
-once this is done restart the docker container which has the airflow instance using command
+* once this is done restart the docker container which has the airflow instance using command
 ```
 astro dev restart
 ```
-once airflow restarts we need to check whether the data source added in configuration.yml file inside the soda folder works
-so once restarted we need to go tto the airflow bash terminal
+* once airflow restarts we need to check whether the data source added in configuration.yml file inside the soda folder works
+  so once restarted we need to go tto the airflow bash terminal
 ```
 >>> astro dev bash
 
@@ -69,8 +69,8 @@ so we'll be writing one function to call both data quality checks
 refer ([check_function.py](https://github.com/ansel9618/Snowflake_Soda_DataQuality_Pipeline/blob/main/include/soda/check_function.py))
 
 After above step we can now implement the actual checks
-([movie.yml](https://github.com/ansel9618/Snowflake_Soda_DataQuality_Pipeline/blob/main/include/soda/check_function.py))
-([top_movie.yml](https://github.com/ansel9618/Snowflake_Soda_DataQuality_Pipeline/blob/main/include/soda/check_function.py))
+([movie.yml](https://github.com/ansel9618/Snowflake_Soda_DataQuality_Pipeline/blob/main/include/soda/checks/tables/movie.yml))
+([top_movie.yml](https://github.com/ansel9618/Snowflake_Soda_DataQuality_Pipeline/blob/main/include/soda/checks/tables/top_movie.yml))
 
 after this refer dag to see the implementation of checks using python external operator
 and finally all the oprations are chained to form a dag
